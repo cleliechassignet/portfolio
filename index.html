@@ -45,6 +45,36 @@
                 <h1 class="tirets"> // </h1>
                 <a href="https://www.behance.net/cleliechassig" target=_blank>Behance</a>
             </div>
+
+            <div id="menuToggle">
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <input type="checkbox" />
+                
+                <!--
+                Some spans to act as a hamburger.
+                
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+                <ul id="menu">
+                  <a href="Html/About.html"><li>About</li></a>
+                  <a href="Images/Clelie_Chassignet_CV.pdf" target=_blank><li>French CV</li></a>
+                  <a href="Images/CV_CLELIE CHASSIGNET_English.pdf" target=_blank><li>English CV</li></a>
+                  <a href="mailto:cleliechassignet2@gmail.com" target=_blank><li>Contact</li></a>
+                  <a href="https://www.behance.net/cleliechassig" target="_blank"><li>Behance</li></a>
+                </ul>
+              </div>
     
         </nav>
         <div id="wrapper">
@@ -81,8 +111,8 @@
                 <!--------- RESPONSIVE <span>&#x2794;</span>------->
 			
                 <div class="img">
-                    <img src="Images/logo_center.svg"  sizes="(max-width: 767px) 80vw, (max-width: 991px) 354px, 400px" alt="" class="logo">
-                    <div class="text_intro">
+                    <img src="Images/logo_center.svg"  sizes="(max-width: 767px) 80vw, (max-width: 991px) 354px, 300px" alt="" class="logo">
+                   <!-- <div class="text_intro">
                         <h1>Hello, </h1> 
                         <p>  If you want to know a little bit <a href="Html/About.html">ABOUT</a> me or to download my french 
                             <a href="Images/Clelie_Chassignet_CV.pdf" target=_blank> CV</a> or english 
@@ -92,9 +122,9 @@
                         </p>
                         <p class="more">
                             Or find me: <a href="">Linkedin</a>
-                        </p>
+                        </p> 
                         <a href="#firstSection"><img src="Images/Fleche_arrondie.svg"  sizes="(max-width: 767px) 80vw, (max-width: 991px) 354px, 400px" alt="" class="arrow"></a>
-                    </div>
+                   </div>-->
                 </div>
             </div>
 
@@ -111,7 +141,7 @@
                                     <source src="Videos/Tattoo.mp4" type="video/mp4" />
                                     Your browser doesn't support the video. You can find the Youtube link on the right page.
                                 </video>-->
-                           <iframe width="560" height="315" src="https://www.youtube.com/embed/wnFgCuCYiVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                           <iframe width="560" height="315" src="https://www.youtube.com/embed/wnFgCuCYiVk" srcset="https://www.youtube.com/embed/wnFgCuCYiVk 320w, https://www.youtube.com/embed/wnFgCuCYiVk 620w"  sizes="(max-width: 767px) 80vw, (max-width: 991px) 354px, 640px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
                             </div>
                         </div>

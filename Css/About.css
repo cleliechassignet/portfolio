@@ -11,7 +11,7 @@ body:after{
   left: 0;
   bottom: 0;
   right: 0;
-	box-shadow: inset 16px 16px #0000FF, inset -16px -16px #0000FF;
+	box-shadow: inset 16px 16px #002FA7, inset -16px -16px #002FA7;
 	 /*border: 2em solid #0000FF;*/
 	z-index: 5;
   pointer-events: none;
