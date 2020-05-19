@@ -449,7 +449,7 @@ nav h1 {
 }
 /*---------LIENS CÔTES-----*/
 
-.infos, .menu{
+.infos, .menu, .projets{
 	display: none;
 }
 
@@ -468,7 +468,7 @@ nav h1 {
 	margin-left:3em;
 	margin-bottom: 1em;
 	bottom: 6%;
-	right:20%;
+	right:15%;
 	display: block;
 	align-items: center;
 	text-align: center;
@@ -481,7 +481,7 @@ nav h1 {
 	.img_section a{
 		font-size: 1em;
 	}
-	.infos, .menu{
+	.infos, .menu, .projets{
 		display: block;
 		align-items: center;
 		text-align: center;
@@ -504,7 +504,7 @@ nav h1 {
 		right: 0;
 	}
 
-	.infos a, .menu a{
+	.infos a, .menu a, .projets a{
 		letter-spacing: 0.2em;
         color: white;
 		border: 0;
@@ -513,6 +513,30 @@ nav h1 {
 		font-size: 16px;
 		margin: 0 1em 0 1em;
 	}
+
+	.projets{
+		position: absolute;
+		bottom: 0;
+		text-align: center;
+		width: 100%;
+		z-index: 10;
+		position: fixed;
+		height: 2.8em;
+	}
+
+	.projets a{
+		display: inline-block;
+		letter-spacing: 0.1em;
+		font-size: 18px;
+	}
+	
+	.downArrow{
+		background: url(../Images/whiteArrow.svg);
+		background-repeat: no-repeat;
+	   width: 2em;
+	   height: 1em;
+	}
+	  
 
 	.titre, .tirets{
 		margin: 0.5em 0 0.5em 0;
