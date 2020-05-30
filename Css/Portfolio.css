@@ -12,13 +12,14 @@ body:after{
     bottom: 0;
     right: 0;
 	box-shadow: inset 16px 16px #002FA7, inset -16px -16px #002FA7; /*Bleu de Klein*/
-	 /*border: 2em solid #0000FF;*/
+	border-top:0.5em solid #002FA7;
 	z-index: 5;
     pointer-events: none;
 }
 
 @media (min-width: 40rem) {
 	body:after{
+		border-top:none;
 		box-shadow: inset 24px 24px #002FA7, inset -24px -24px #002FA7; /*Bleu de Klein*/
 	}
 }
@@ -45,6 +46,7 @@ nav h1 {
 	text-decoration: none;
 	cursor: pointer;
 }
+
 
 @media (min-width: 40rem) {
 	nav h1{
@@ -490,6 +492,10 @@ nav h1 {
 		left: 0;
 	}
 
+	.infos a:hover {
+		color: grey;
+	  }
+
 	.menu{
 		transform: rotate(90deg) translateX(50%);
 		transform-origin: top right;
@@ -497,6 +503,10 @@ nav h1 {
 		margin-top: 23em;
 		right: 0;
 	}
+
+	.menu a:hover {
+		color: grey;
+	  }
 
 	.infos a, .menu a, .projets a{
 		letter-spacing: 0.2em;
@@ -523,6 +533,10 @@ nav h1 {
 		letter-spacing: 0.1em;
 		font-size: 18px;
 	}
+
+	.projets a:hover {
+		color: grey;
+	  }
 	
 	.downArrow{
 		background: url(../Images/whiteArrow.svg);
@@ -621,6 +635,4 @@ nav h1 {
 		font-size: 14px;
 	}
 }
-.projets a:hover {
-	color: grey;
-  }
+
