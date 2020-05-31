@@ -372,14 +372,30 @@ nav h1 {
 			z-index: 2;
 		}
 
-
 		.rect1{
 			margin-left: -5.3em;
+		}
+
+		/*pour mozilla firefox*/
+		@-moz-document url-prefix()  
+		{
+			.rect1{
+				margin-left: -16.5em;
+				margin-top: 2.3em;
+			}
 		}
 
 		.rect2{
 			margin-top: -2.3em;
     		margin-left: 10.2em;
+		}
+
+		@-moz-document url-prefix()  
+		{
+			.rect2{
+				margin-top: -3.1em;
+				margin-left: 20em;	
+			}
 		}
 
 		.rect3, .rect4{
@@ -394,9 +410,25 @@ nav h1 {
 			margin-top: 5.3em;
 		}
 
+		@-moz-document url-prefix()  
+		{
+			.rect3{
+				margin-top: 12em;
+				margin-left: -2.6em;
+			}
+		}
+
 		.rect4{
 			margin-left: 2.5em;
     		margin-top: -7.65em;
+		}
+
+		@-moz-document url-prefix()  
+		{
+			.rect4{
+				margin-left: 2.5em;
+				margin-top: -13em;
+			}
 		}
 
 		.rect1b, .rect2b{
@@ -408,9 +440,25 @@ nav h1 {
 			margin-left: -16em; 	
 		}
 
+		@-moz-document url-prefix()  
+		{
+			.rect1b{
+				margin-left: -30em;
+				margin-top: 2em;
+			}
+		}
+
 		.rect2b{
 			margin-top: -2.3em;
 			margin-left: 19em;
+		}
+
+		@-moz-document url-prefix()  
+		{
+			.rect2b{
+				margin-left: 33em;
+				margin-top: -3.2em;
+			}
 		}
 
 		.clelie, .clelie_2, .chassignet, .chassignet_2{
