@@ -373,7 +373,7 @@ nav h1 {
 		}
 
 		.rect1{
-			margin-left: -5.3em;
+			margin-left: -12.8em;
 		}
 
 		/*pour mozilla firefox*/
@@ -386,8 +386,8 @@ nav h1 {
 		}
 
 		.rect2{
-			margin-top: -2.3em;
-    		margin-left: 10.2em;
+			margin-top: -4.5em;
+    		margin-left: 17.9em;
 		}
 
 		@-moz-document url-prefix()  
@@ -407,7 +407,8 @@ nav h1 {
 		}
 
 		.rect3{
-			margin-top: 5.3em;
+			margin-top: 10.8em;
+			margin-left:-2.5em;
 		}
 
 		@-moz-document url-prefix()  
@@ -420,7 +421,7 @@ nav h1 {
 
 		.rect4{
 			margin-left: 2.5em;
-    		margin-top: -7.65em;
+    		margin-top: -15em;
 		}
 
 		@-moz-document url-prefix()  
@@ -437,7 +438,7 @@ nav h1 {
 		}
 
 		.rect1b{
-			margin-left: -16em; 	
+			margin-left: -20em; 	
 		}
 
 		@-moz-document url-prefix()  
@@ -450,7 +451,7 @@ nav h1 {
 
 		.rect2b{
 			margin-top: -2.3em;
-			margin-left: 19em;
+			margin-left: 26em;
 		}
 
 		@-moz-document url-prefix()  
