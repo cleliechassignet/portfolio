@@ -1,0 +1,58 @@
+body{
+	margin: 0 !important;
+	/*line-height: 20px;*/
+	background-color:black
+}
+
+
+nav{
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+position: fixed;
+}
+
+nav h1 {
+  font-size: 13px;
+  letter-spacing: 0.4em;
+  line-height: 16px;
+  display: inline-block;
+margin: 0;
+word-spacing: 1em;
+  color: white;
+  border: 0;
+text-decoration: none;
+cursor: pointer;
+}
+
+ .projets{
+   position: absolute;
+   bottom: 0;
+   text-align: center;
+    width: 100%;
+    z-index: 10;
+  position: fixed;
+  height: 20%;
+   
+ }
+
+ .projets a{
+  font-size: 13px;
+  letter-spacing: 0.4em;
+  line-height: 16px;
+  display: inline-block;
+margin: 0;
+word-spacing: 1em;
+  color: black;
+  border: 0;
+text-decoration: none;
+cursor: pointer;
+ }
+
+ .downArrow{
+  background: url(../Images/whiteArrow.svg);
+  background-repeat: no-repeat;
+ width: 2em;
+ height: 2em;
+ }

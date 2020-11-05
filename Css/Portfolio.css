@@ -11,7 +11,7 @@ body:after{
     left: 0;
     bottom: 0;
     right: 0;
-	box-shadow: inset 16px 16px #002FA7, inset -16px -16px #002FA7; /*Bleu de Klein*/
+	box-shadow: inset 16px 30px #002FA7, inset -16px -16px #002FA7; /*Bleu de Klein*/
 	border-top:0.5em solid #002FA7;
 	z-index: 5;
     pointer-events: none;
@@ -39,13 +39,14 @@ nav h1 {
     letter-spacing: 0.4em;
     line-height: 16px;
     display: inline-block;
-	margin: 0;
+	/*margin: 0;*/
 	word-spacing: 1em;
     color: white;
     border: 0;
 	text-decoration: none;
 	cursor: pointer;
 }
+
 
 
 @media (min-width: 40rem) {
@@ -84,8 +85,8 @@ nav h1 {
 {
   display: block;
   position: relative;
-  top: 30px;
-  left: 50px;
+  top: -30px;
+    left: 20px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -128,7 +129,7 @@ nav h1 {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #002FA7;
+  background: white; /*#002FA7;*/
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -159,7 +160,7 @@ nav h1 {
 }
 
 /*
- * But let's hide the middle one.
+ *let's hide the middle one.
  */
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
@@ -168,7 +169,7 @@ nav h1 {
 }
 
 /*
- * Ohyeah and the last one should go the other direction
+ * The last one should go the other direction
  */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
@@ -205,7 +206,7 @@ nav h1 {
 }
 
 /*
- * And let's slide it in from the left
+ * let's slide it in from the left
  */
 #menuToggle input:checked ~ ul
 {
@@ -224,10 +225,10 @@ nav h1 {
 .container a{
 	text-decoration: none;
 }
-
+/*--
 .img{
 	position: absolute;
-	top: 50%; left: 50%; 
+	top: 100%; left: 50%; 
 	transform: translate(-50%, -50%);
 	width: 100%;
 	font-family: Tahoma, Verdana, Segoe, sans-serif;
@@ -250,7 +251,7 @@ nav h1 {
 }
 .more{
 	font-size: 13px;
-}
+}*/
 
 .rect1, .rect2, .rect3, .rect4, .rect1b, .rect2b{
 	display: none;
@@ -521,6 +522,8 @@ nav h1 {
 }
 
 
+
+
 @media (min-width: 40rem) {
 
 	.img_section a{
@@ -622,6 +625,7 @@ nav h1 {
 
 /* ----------- Sections -----------*/
 
+
 .img_section{
 	text-align: center;
 	margin: 2em;
@@ -656,7 +660,7 @@ nav h1 {
 .video-wrapper {
 	max-width: 672px;
 	margin: auto;
-	padding: 2em 0 2em 0;
+	
 }
 
 
@@ -665,6 +669,9 @@ nav h1 {
 }
 
 @media (min-width: 40rem){
+	.video-wrapper{
+		padding: 2em 0 2em 0;
+	}
 	.texte{
 		max-height: 45vh;
 		width: 40em;
@@ -683,5 +690,11 @@ nav h1 {
 	.img_section h3{
 		font-size: 14px;
 	}
+
+.section,
+.section .fp-slide,
+.section .fp-tableCell{
+    height: auto !important;
+}
 }
 
