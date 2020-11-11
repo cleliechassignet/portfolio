@@ -1,6 +1,6 @@
 body{
   margin: 0 !important;
-  line-height: 20px;
+ 
   color:rgba(0, 0, 0, 0.74);
 }
 
@@ -11,7 +11,7 @@ body:after{
   left: 0;
   bottom: 0;
   right: 0;
-	box-shadow: inset 16px 16px #002FA7, inset -16px -16px #002FA7;
+	box-shadow: inset 16px 30px #002FA7, inset -16px -16px #002FA7;
 	 /*border: 2em solid #0000FF;*/
 	z-index: 5;
   pointer-events: none;
@@ -60,7 +60,9 @@ nav a {
 
 .texte{
   font-family: Tahoma, Verdana, Segoe, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
+  text-align: justify;
+   line-height: 20px;
 }
 
 .last_p{
@@ -80,6 +82,7 @@ nav a {
   }
   .wrap p{
     font-size: 14px;
+    line-height: 22px;
   }
   .wrap > :first-child {
     width: 55%;
