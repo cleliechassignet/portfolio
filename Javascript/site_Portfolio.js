@@ -4,7 +4,7 @@ const rect1b = document.querySelector('.rect1b');
 const rect2 = document.querySelector('.rect2');
 const rect2b = document.querySelector('.rect2b');
 
-const video = document.querySelector('.video-container');
+
 
 rect1.onmouseover = function (){
 	rect1b.style.display='flex';

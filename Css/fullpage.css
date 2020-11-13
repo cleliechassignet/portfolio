@@ -93,10 +93,10 @@ html.fp-enabled,
 }
 @media (max-width: 40rem) {
     .fp-controlArrow.fp-prev {
-        top:73%;
+        top:61%;
     }
     .fp-controlArrow.fp-next {
-        top:73%;
+        top:61%;
     }
 }
 .fp-scrollable {

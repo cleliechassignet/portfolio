@@ -136,7 +136,7 @@
             interlockedSlides: false,
             dragAndMove: false,
             offsetSections: false,
-            resetSliders: false,
+            resetSliders: true,
             fadingEffect: false,
             normalScrollElements: null,
             scrollOverflow: false,
