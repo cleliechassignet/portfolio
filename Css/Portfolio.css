@@ -1,6 +1,5 @@
 body{
 	margin: 0 !important;
-	/*line-height: 20px;*/
 	color:rgba(0, 0, 0, 0.74);
 }
 
@@ -11,8 +10,7 @@ body:after{
     left: 0;
     bottom: 0;
     right: 0;
-	box-shadow: inset 10px 20px #002FA7, inset -10px -10px #002FA7; /*Bleu de Klein*/
-	border-top:0.5em solid #002FA7;
+	border-top:28px solid #002FA7; /*Bleu de Klein*/
 	z-index: 5;
     pointer-events: none;
 }
@@ -721,7 +719,8 @@ nav h1 {
 
 	.section,
 	.section .fp-slide,
-	.section .fp-tableCell{
+	.section .fp-tableCell
+	{
 	    height: auto !important;
 	}
 	/*pas de slide sur le coté en responsive*/
