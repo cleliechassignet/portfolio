@@ -683,9 +683,6 @@ nav h1 {
 }*/
 
 @media (min-width: 40rem){
-	.video-wrapper{
-		padding: 2em 0 2em 0;
-	}
 	.texte, .texte1{
 		max-height: 45vh;
 		width: 40em;
@@ -705,15 +702,13 @@ nav h1 {
 }
 
 .img_section h3{
-		font-size: 10px; 
+		font-size: 13px; 
 	}
 
 @media (max-width: 40rem) {
-	.img_section h3{
-		font-size: 14px;
-	}
+	
 	.texte h3, .texte1 h3{
-		font-size: 10px;
+		font-size: 11px;
 		line-height: 22px;
 	}
 
