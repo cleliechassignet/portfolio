@@ -688,7 +688,12 @@ nav h1 {
 		width: 40em;
 		margin:auto;
 	}
+	.texte1{
+			width: 47em;
+		}
 }
+
+
 
 .texte h3, .texte1 h3{
 	font-family: Tahoma, Verdana, Segoe, sans-serif;
