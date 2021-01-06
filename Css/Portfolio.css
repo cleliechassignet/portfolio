@@ -229,7 +229,6 @@ nav h1 {
 	margin-left: 23%;
 	margin-top: 10%;
 	padding-top: 10%;
-
 }
 
 #arrow{
@@ -263,7 +262,9 @@ nav h1 {
 	font-size: 13px;
 }*/
 
-.rect1, .rect2, .rect3, .rect4, .rect1b, .rect2b{
+
+
+.rect1, .rect2, .rect3, .rect4, .rect1b, .rect2b, .img_logo_desktop{
 	display: none;
 }
 
@@ -275,11 +276,19 @@ nav h1 {
 
 		.img, .img_logo{
 			display:none;
-		}	
-		
+		}
+
+		.img_logo_desktop{
+			display: block;
+		    width: 35%;
+		    margin-left: 34%;
+		    /* margin-top: 10%; */
+		    /* padding-top: 10%;*/
+		}
+		/*
 		.rect1, .rect2, .rect3, .rect4, .rect1b, .rect2b{
 			display: block;
-		}
+		}*/
 		/*
 		.rect1, .rect2, .rect3, .rect4{
 			border: 0.313em solid grey;
@@ -373,14 +382,14 @@ nav h1 {
 			align-items: center;
 			position: relative;
 		}
-
+/*
 		.rect1, .rect4, .rect3, .rect2{
 			position: absolute;
 			border: 0.313em solid grey;
 		}
 
 		.rect1, .rect2{
-			/*horizontal*/
+			/*horizontal*//*
 			background-color: rgb(255,255,255,0.7);
 			width: 17.500em;
 			height: 2.188em;
@@ -391,7 +400,7 @@ nav h1 {
 			margin-left: -12.8em;
 		}
 
-		/*pour mozilla firefox*/
+		/*pour mozilla firefox*//*
 		@-moz-document url-prefix()  
 		{
 			.rect1{
@@ -414,7 +423,7 @@ nav h1 {
 		}
 
 		.rect3, .rect4{
-			/*vertical*/
+			/*vertical*//*
 			background-color: #002FA7;
 			width: 2.188em;
 			height: 17.500em;
@@ -505,7 +514,7 @@ nav h1 {
 		.rect1:hover, .rect2:hover{
 			opacity: 0;
 		}
-
+*/
 }
 /*---------LIENS CÔTES-----*/
 
